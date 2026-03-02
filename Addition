@@ -1,0 +1,10 @@
+//SPDX-License-Identifier:MIT
+pragma solidity^0.8.0;
+contract addition{
+    uint public a = 20;
+    uint public b = 10;
+
+    function add() public view returns (uint) {
+        return a + b;
+    }
+}
